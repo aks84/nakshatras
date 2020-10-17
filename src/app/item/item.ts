@@ -10,5 +10,10 @@ export interface Item {
     name: string;
     lord: string;
     deity: string;
+    symbol: string;
+    caste: string;
+    aim: string;
+    direction: string;
+    power: string;
 
 }
