@@ -1,0 +1,18 @@
+<ActionBar class="appBar" title="Details" >
+    <NavigationButton android.systemIcon="ic_menu_back" (tap)="goBack()" ></NavigationButton>
+    
+</ActionBar>
+
+<FlexboxLayout flexDirection="column">
+    <FlexboxLayout class="m-15">
+        <Label class="h2" [text]="item.id + '. '"></Label>
+        <Label class="h2" [text]="item.name"></Label>
+    </FlexboxLayout>
+    <Label class="m-15 h3" [text]="'Planet Lord : '+item.lord"></Label>
+    <Label class="m-15 h3" [text]="'Deity : '+ item.deity" textWrap="true"></Label>
+
+    
+
+</FlexboxLayout>
+
+
